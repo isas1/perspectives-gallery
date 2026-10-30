@@ -47,7 +47,7 @@ Quiet editorial desk. Preserve inherited Perspectives paper, green ink, Mozilla 
 
 ## Colors
 
-Paper supports long reading. Green ink anchors text and controls; muted green marks metadata; pale rules divide sections. Archive preview uses four soft scene tones. Clay marks link hover and focus. Study data supplies bounded scene palettes. No flag or sacred image decoration.
+Paper supports long reading. Green ink anchors text and controls; muted green marks metadata; pale rules divide sections. Archive uses a muted sage slab fill. Clay marks link hover and focus. Study data supplies bounded scene palettes. Country labels use restrained color fields; no flags or sacred imagery.
 
 ## Typography
 
@@ -55,7 +55,11 @@ Self-host Mozilla Headline as Headline; Mozilla Text as Text. Included OFL licen
 
 ## Layout
 
-Container max width 1400px; fluid gutters; 28px vertical page padding. Archive uses one full-width study link with four preview cells. Study has a compact title bar and four full-height visual columns. At 1100px: two columns; at 600px: one. Each muted scene card carries only title, place and diagram. A pointer-tracked circular lens reveals a contrasting active scene; click, tap or Enter expands it. Arrow keys move the lens. Controls and source context sit below cards; comparison stays collapsed. Archive remains unchanged.
+Archive contains only a centered list of published study links. Folded-slab reference informs weighted hover expansion, sweeping muted fill and shifting title/arrow. Native links remain clickable; keyboard focus has the same reveal. No invented entries or autonomous demo motion.
+
+Study uses a 68px top bar and four edge-to-edge blocks filling the remaining viewport. Below 800px, a two-by-two grid keeps all four visible without page scrolling. Each block shows only its country name at top. Muted rose, ochre and blue tones distinguish countries as editorial color choices, not cultural claims. Scene artwork is hidden at rest. Hover/focus reveals a pointer-tracked circle; tap/click/Enter expands the scene. Arrow keys move the lens.
+
+Sources, original scoped accounts, comparison and exports remain inside the top-bar Sources drawer. Long source text scrolls within that drawer; the study grid stays fixed.
 
 ## Elevation & Depth
 
@@ -63,11 +67,11 @@ Flat paper, soft scene fields, thin rules. No decorative shadow, glass or floati
 
 ## Shapes
 
-Controls use small rounded corners; SVG scene fields use larger corners. Geometric vessels remain abstract prototypes, never authentic object claims.
+Controls use small rounded corners; full-screen blocks have square edges. Geometric vessels remain abstract prototypes, never authentic object claims.
 
 ## Components
 
-Archive link opens study. Each scene has action, Reset, Download SVG, live status and native context disclosure. Control minimum height 44px; focus uses 3px clay outline with 5px offset. Hover animates vessel positions for 850ms; reduced motion removes animation. Lens transition lasts 500ms and stops when pointer rests. No autonomous animation loop. Source links open deliberately. JSON download sits below cross-scene comparison.
+Archive link opens study. Each scene has action, Reset, Download SVG, live status and native context disclosure. Control minimum height 44px; focus uses 3px clay outline with 5px offset. Hover animates vessel positions for 850ms; reduced motion removes animation. Lens transition lasts 500ms and stops when pointer rests. No autonomous animation loop. Source links and SVG/JSON downloads stay inside the Sources drawer.
 
 ## Do's and Don'ts
 
