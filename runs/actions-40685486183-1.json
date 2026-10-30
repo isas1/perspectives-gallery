@@ -1,0 +1,118 @@
+{
+  "id": "actions-40685486183-1",
+  "date": "2026-10-28",
+  "title": "A welcome arrival",
+  "task": "Help a newcomer enter an unfamiliar shared space without a long onboarding tour.",
+  "kind": "method-study",
+  "notice": "Exploratory ideas, not built prototypes or cultural studies. Human review unrecorded.",
+  "outputs": [
+    {
+      "synthesis": {
+        "title": "Seam Ledger: boundary norms with visible decay and reversible repairs",
+        "action": "Newcomer taps a seam between zones, then accepts, questions, or reties its local norm.",
+        "feedback": "Each norm shows confidence, last-confirmed date, and source; stale ones fray with stated reason.",
+        "mechanism": "Norms live at boundaries; corrections enter an undoable ledger others confirm, linking uncertainty to delayed help.",
+        "difference": "Repair history, not shading, is the core interaction; uncertainty explains its source and decay.",
+        "risks": "Ledger may overwhelm; frayed norms could erode trust; scarce-resource norms may age unseen.",
+        "feasibility": "Single offline HTML page, fictional JSON norms, local storage ledger, no sensors or identities.",
+        "prototype": "Proposed: SVG floorplan, five seams, norm cards, retie and undo buttons, scripted decay clock."
+      },
+      "proposals": [
+        {
+          "title": "Seam Map: tagged joints newcomers can loosen and retie",
+          "action": "Newcomer taps visible seams between zones to reveal local norms.",
+          "feedback": "Each seam shows confidence knots: tight, loose, or frayed uncertainty.",
+          "mechanism": "Norms bind to joints; newcomers propose reversible ties, others confirm.",
+          "difference": "Rules live at boundaries, not tours, with legible repair history.",
+          "risks": "Frayed seams may overwhelm; stale ties could mislead quietly.",
+          "feasibility": "Offline web prototype with fictional floorplan and local storage.",
+          "prototype": "Clickable SVG map; seams toggle notes, undo log, retie button."
+        },
+        {
+          "title": "Tide Map Arrival",
+          "action": "Newcomer drags a cup marker into zones of a fictional floor map.",
+          "feedback": "Zones fill like basins showing norms; murky water marks uncertain guesses.",
+          "mechanism": "Each confirmed question clears water; stale tips slowly silt over time.",
+          "difference": "Uncertainty is visible sediment, not hidden confidence or flat checklists.",
+          "risks": "Metaphor may confuse; murkiness could feel like unreliable guidance overall.",
+          "feasibility": "Single offline HTML page with canvas and fictional JSON norms.",
+          "prototype": "Clickable map, five zones, correct-or-flag button reshaping water clarity."
+        },
+        {
+          "title": "Stage Marks: chalk-line arrival map with confidence halos",
+          "action": "Newcomer drags their token across a top-down floor plan to block entry.",
+          "feedback": "Zones glow by fictional norm certainty; faint halos mean guessed conventions.",
+          "mechanism": "Theatrical blocking marks suggest paths, pauses and where attention gathers.",
+          "difference": "Spatial rehearsal replaces tours; uncertainty shown as fuzzy, not hidden.",
+          "risks": "Misread halos may feel authoritative; floor plans may oversimplify social norms.",
+          "feasibility": "Single offline HTML canvas with fictional JSON room and norms.",
+          "prototype": "Drag token, tap marks to correct or flag guessed norms."
+        },
+        {
+          "title": "Confidence Chalk Trails",
+          "action": "Newcomer taps a habitat object to reveal its fading usage trail.",
+          "feedback": "Trails glow solid when recent, dashed when uncertain or stale.",
+          "mechanism": "Fictional logs render as decaying chalk lines newcomers can redraw or erase.",
+          "difference": "Shows how sure the guidance is, not just where to go.",
+          "risks": "Stale trails may mislead; newcomers may over-trust solid lines.",
+          "feasibility": "Offline web canvas with scripted fictional logs and local storage.",
+          "prototype": "Clickable habitat map; correction button marks trails wrong; untested."
+        }
+      ]
+    },
+    {
+      "synthesis": {
+        "title": "Ask-and-Vouch Doorway Questions",
+        "action": "Newcomer picks a question at each doorway, like 'Can I sit anywhere?', getting one answer.",
+        "feedback": "Answers carry text labels: known, likely, or unsure, plus who vouched in fictional history.",
+        "mechanism": "Newcomer vouches, disputes, or flags answers; conflicting corrections stay visible side by side, never silently overwritten.",
+        "difference": "Questions replace map styling; uncertainty is stated in words, and disputes surface instead of averaging away.",
+        "risks": "Too many unsure answers may erode trust; fictional vouch counts could feel falsely authoritative.",
+        "feasibility": "Single offline HTML page, fictional JSON questions, localStorage state, undo stack for every action.",
+        "prototype": "Keyboard-navigable three-doorway page with text labels and ARIA live region; plan to observe whether trust matches labels."
+      },
+      "proposals": [
+        {
+          "title": "Confidence Lantern Map",
+          "action": "Newcomer taps a mapped spot to ask what happens here.",
+          "feedback": "Answers glow bright when certain, flicker faintly when guessed.",
+          "mechanism": "Each fictional fact carries confidence; users confirm or correct it inline.",
+          "difference": "Uncertainty is shown visually, and user corrections reshape the map.",
+          "risks": "Flickering cues may confuse users or erode trust in solid facts.",
+          "feasibility": "Static offline HTML with local JSON and fictional data.",
+          "prototype": "Clickable floorplan with confidence glow and a correct-this control."
+        },
+        {
+          "title": "Confidence Trail Cards",
+          "action": "Newcomer taps a doorway card to reveal nearby norms, ranked by certainty.",
+          "feedback": "Each norm shows solid, dashed, or faint border for confidence level.",
+          "mechanism": "User marks norms confirmed or wrong, updating an explicit local state machine.",
+          "difference": "Uncertainty is visible and correctable, not hidden behind confident instructions.",
+          "risks": "Faint norms may be ignored; fictional confidence could mislead users.",
+          "feasibility": "Single offline HTML page with fictional JSON and localStorage undo.",
+          "prototype": "Clickable floor map with three rooms, norm cards, undo history panel."
+        },
+        {
+          "title": "Confidence Sketch Map",
+          "action": "Newcomer taps a hand-drawn map zone to ask what happens there.",
+          "feedback": "Answers show solid or dotted outlines reflecting how certain the guidance is.",
+          "mechanism": "Newcomer drags fuzzy zones to correct, firming them into shared knowledge.",
+          "difference": "Uncertainty is drawn spatially, and correction is direct manipulation.",
+          "risks": "Dotted lines may read as broken, or corrections may spread errors.",
+          "feasibility": "Static offline web page with fictional zones and local storage.",
+          "prototype": "Paper-then-HTML map; observe hesitation, taps, and correction attempts."
+        },
+        {
+          "title": "Confidence Doorway Walkthrough",
+          "action": "Newcomer steps through rooms via arrow keys, hearing one tip each.",
+          "feedback": "Each tip states confidence level: known, likely, or unsure-ask someone.",
+          "mechanism": "Tips are claims the user can confirm, dispute, or mark outdated.",
+          "difference": "Uncertainty is spoken aloud and correctable, not hidden behind polish.",
+          "risks": "Too many unsure tips may erode trust; error recovery needs testing.",
+          "feasibility": "Single offline HTML page with fictional room data and localStorage.",
+          "prototype": "Keyboard-only map, ARIA live region, undo for every correction."
+        }
+      ]
+    }
+  ]
+}

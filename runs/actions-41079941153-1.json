@@ -1,0 +1,118 @@
+{
+  "id": "actions-41079941153-1",
+  "date": "2026-10-30",
+  "title": "Back into the project",
+  "task": "Help someone recover the thread of a personal project after a long break.",
+  "kind": "method-study",
+  "notice": "Exploratory ideas, not built prototypes or cultural studies. Human review unrecorded.",
+  "outputs": [
+    {
+      "synthesis": {
+        "title": "Rewind Trail: scrub fast, pause to reflect, pin the thread",
+        "action": "User scrubs backward through fictional snapshots by dial, drag, or arrow keys; holding still pauses.",
+        "feedback": "Each pause shows a tentative last-intent card with source notes; user marks still-true, stale, or edits.",
+        "mechanism": "Scrub speed switches modes: fast shows glances, pausing opens a reflection prompt on contradictions.",
+        "difference": "Navigation speed itself toggles immediacy and reflection; recovery comes from user verdicts, not summaries.",
+        "risks": "Inferred intents may anchor users; long histories overwhelm; marking fatigue; verdicts may entrench errors.",
+        "feasibility": "Offline single-page app: fictional JSON, slider plus keyboard, ARIA live region, undoable verdict states.",
+        "prototype": "Proposed untested mock with twenty fictional snapshots; measure time-to-correct-next-step versus plain notes baseline."
+      },
+      "proposals": [
+        {
+          "title": "Rewind Dial: scrub your project backward, then pin the thread",
+          "action": "User drags a dial backward through fictional project snapshots, pausing anywhere.",
+          "feedback": "Each pause shows one last-intent sentence; user edits or rejects it.",
+          "mechanism": "Fast scrubbing gives immediacy; pausing opens a slow reflection prompt.",
+          "difference": "Navigation speed itself switches between glancing and reflecting, not buttons.",
+          "risks": "Inferred intents may mislead; scrubbing could overwhelm long histories.",
+          "feasibility": "Local web prototype with fictional notes JSON and slider.",
+          "prototype": "Paper-test twenty fictional snapshots; observe corrections and resumed next step."
+        },
+        {
+          "title": "Thread Splice",
+          "action": "Drag a fictional project note onto a draft resume-point card.",
+          "feedback": "Card shows guessed next step, marked tentative, with source notes.",
+          "mechanism": "Quick splice now; deliberate reflection pass edits each inferred link later.",
+          "difference": "Recovery is built by visibly joining fragments, not reading summaries.",
+          "risks": "Wrong inferences may anchor users; reflection pass might be skipped.",
+          "feasibility": "Local JSON state, undo stack, single-page offline web app.",
+          "prototype": "Paper-plus-HTML mock using fictional notes; untested, user study planned."
+        },
+        {
+          "title": "Cold Trail Sorting",
+          "action": "User sorts dealt cards of past notes into 'still true' or 'stale'.",
+          "feedback": "Each sort instantly redraws a timeline showing surviving intentions.",
+          "mechanism": "Quick swipe judgments first, then slow reflection on contradictions surfaced.",
+          "difference": "Recovery through user verdicts on old beliefs, not automated summaries.",
+          "risks": "Fast sorting may entrench wrong judgments; misread fictional notes.",
+          "feasibility": "Local fictional JSON notes, card UI, timeline rendered in browser.",
+          "prototype": "Clickable offline mockup; observe sort hesitations and undo frequency."
+        },
+        {
+          "title": "Breadcrumb Rewind: keyboard-walked trail of last project steps",
+          "action": "User steps backward through dated notes using arrow keys.",
+          "feedback": "Each step speaks a one-line summary; screen reader announces position.",
+          "mechanism": "Press space to mark step 'still true' or 'outdated'.",
+          "difference": "Recovery happens by confirming past states, not reading summaries.",
+          "risks": "Stale notes may mislead; marking fatigue on long trails.",
+          "feasibility": "Local JSON of fictional notes, plain HTML, ARIA live region.",
+          "prototype": "Single offline page with twenty fictional notes and keyboard tests."
+        }
+      ]
+    },
+    {
+      "synthesis": {
+        "title": "Re-stitching Stage: resuming a paused project",
+        "action": "User pulls loose thread cards onto a stage, ordering, flagging, or relabeling each fragment.",
+        "feedback": "Center cards reveal last decision, open question, date; wings hold unconfirmed or stale notes neutrally.",
+        "mechanism": "A thread-tension slider switches quick glance stitching versus slow reflective re-stitching per fragment.",
+        "difference": "Spatial stitching with adjustable pace replaces summary feeds, timelines, and button lists.",
+        "risks": "Metaphor may confuse or feel slow; neutral wording avoids shame about breaks.",
+        "feasibility": "Offline browser canvas app using local fictional JSON fragments and local storage.",
+        "prototype": "Paper stage with thread cards, then HTML drag mockup with undo, relabel, reweight controls."
+      },
+      "proposals": [
+        {
+          "title": "Loose Stitches: re-binding a paused project",
+          "action": "User tugs frayed threads linking past notes to resume work.",
+          "feedback": "Each tug shows the joint's last decision, open question, date.",
+          "mechanism": "Projects are bound seams; breaks fray joints needing deliberate re-stitching.",
+          "difference": "Recovery is physical repair, not a summary feed or timeline.",
+          "risks": "Fraying metaphor may shame users; tone must stay gentle.",
+          "feasibility": "Local web app with fictional notes and simple graph storage.",
+          "prototype": "Paper-and-thread mockup, then offline HTML seam editor with undo."
+        },
+        {
+          "title": "Reservoir Rewind",
+          "action": "User drains a project reservoir, releasing remembered tasks layer by layer.",
+          "feedback": "Sediment layers show stale notes; clear water shows confident recent progress.",
+          "mechanism": "Dragging a sluice gate controls recall flow rate, fast or reflective.",
+          "difference": "Recall speed is a physical flow, not a list or button.",
+          "risks": "Metaphor may confuse; uncertain notes could be over-trusted or ignored.",
+          "feasibility": "Simple offline canvas app using fictional project logs and local storage.",
+          "prototype": "Paper sluice slider plus clickable sediment layers users can relabel."
+        },
+        {
+          "title": "Re-entry Stage",
+          "action": "User drags fictional project fragments onto a stage, ordering their entrances.",
+          "feedback": "Fragments nearer center brighten; distant ones fade into wings.",
+          "mechanism": "Proximity on stage encodes relevance; entrance order rebuilds narrative thread.",
+          "difference": "Spatial blocking replaces lists, balancing quick glance with staged reflection.",
+          "risks": "Metaphor may confuse; arranging could feel slow for urgent restarts.",
+          "feasibility": "Simple offline canvas app with local fictional JSON fragments.",
+          "prototype": "Paper stage with cards, then browser drag-and-drop mockup."
+        },
+        {
+          "title": "Airlock Inventory: Re-entering a Dormant Project Habitat",
+          "action": "User walks virtual habitat rooms, tagging each stored project item.",
+          "feedback": "Items show dust levels; tagging clears dust and reveals last notes.",
+          "mechanism": "Quick triage stamps first, then optional reflective repair logs per item.",
+          "difference": "Spatial triage replaces timelines; resumption feels like physical re-entry.",
+          "risks": "Metaphor may feel slow; dust could imply shame about breaks.",
+          "feasibility": "Offline web prototype with local fictional project JSON data.",
+          "prototype": "Three-room paper or HTML mockup; user edits, undoes, re-tags items."
+        }
+      ]
+    }
+  ]
+}

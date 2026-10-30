@@ -1,0 +1,118 @@
+{
+  "id": "actions-40716388729-1",
+  "date": "2026-10-28",
+  "title": "Begin again",
+  "task": "Help a beginner resume a creative practice after a missed day without streak pressure.",
+  "kind": "method-study",
+  "notice": "Exploratory ideas, not built prototypes or cultural studies. Human review unrecorded.",
+  "outputs": [
+    {
+      "synthesis": {
+        "title": "Thread Pickup: resume from a chosen unfinished stitch",
+        "action": "User picks a resume point and step size via arrow keys, drag, or tap.",
+        "feedback": "Suggestion labeled 'my guess, unsure' with spoken confidence; one-tap correct or undo.",
+        "mechanism": "Explicit states: paused, reattached, corrected; never broken. Corrections retune later suggestions.",
+        "difference": "Continuity counts reattached threads, not consecutive days; uncertainty is shown openly and invites correction.",
+        "risks": "Guesses may feel presumptuous; confidence wording could confuse; users may overpick effort.",
+        "feasibility": "Single offline HTML page, local fictional notes, rule-based guessing, undo stack.",
+        "prototype": "Keyboard-accessible mockup with aria-live announcements; observe correction rate and resume attempts, untested."
+      },
+      "proposals": [
+        {
+          "title": "Warm Ember Restart",
+          "action": "User drags ember slider to pick tiny restart session length.",
+          "feedback": "Ember glows; app shows guess labeled as editable estimate.",
+          "mechanism": "App suggests restart size from fictional history, user corrects freely.",
+          "difference": "No streak counter; momentum shown as fading warmth, never zeroed.",
+          "risks": "Estimates may feel judgmental; uncertainty labels could confuse beginners.",
+          "feasibility": "Local storage web prototype with fictional sample data only.",
+          "prototype": "Clickable offline mockup testing slider, estimate label, and correction."
+        },
+        {
+          "title": "Bookmark Thread: resume where your hands left off",
+          "action": "User drags a loose thread onto last saved sketch moment.",
+          "feedback": "Thread shows 'gap noted, not judged' with editable guessed reason.",
+          "mechanism": "Explicit resume-state machine: paused, reattached, corrected, never broken.",
+          "difference": "Replaces streak counters with a reattachable continuity thread.",
+          "risks": "Guessed reasons may feel presumptuous; uncertainty labels must stay visible.",
+          "feasibility": "Single offline page with local fictional data and undo stack.",
+          "prototype": "Static HTML mock with state log and one-tap correction."
+        },
+        {
+          "title": "Re-entry Dial",
+          "action": "User turns a dial choosing tonight's effort: two, five, or ten minutes.",
+          "feedback": "App shows a guessed-fit label marked 'my guess', which the user can correct.",
+          "mechanism": "Correctable effort guess replaces streak count; user corrections retune future suggestions.",
+          "difference": "No streak; the app shows its uncertainty openly and asks to be corrected.",
+          "risks": "Guesses may feel patronizing; users may ignore corrections or overpick effort.",
+          "feasibility": "Local storage, fictional sample sessions, simple rule-based guessing; buildable offline.",
+          "prototype": "Clickable offline mockup; observe whether beginners correct guesses and resume."
+        },
+        {
+          "title": "Thread Pickup: resume from your last unfinished stitch",
+          "action": "User chooses one tiny re-entry step from last session's note.",
+          "feedback": "Shows 'likely good restart' with stated confidence, user can correct.",
+          "mechanism": "Keyboard-navigable thread of past notes; arrow keys pick resume point.",
+          "difference": "No streaks; continuity measured by resumed threads, not consecutive days.",
+          "risks": "Guesses may feel presumptuous; screen readers need clear uncertainty phrasing.",
+          "feasibility": "Single offline HTML page with local fictional sample notes.",
+          "prototype": "Tab-traversable list, editable suggestion, aria-live confidence and undo announcements."
+        }
+      ]
+    },
+    {
+      "synthesis": {
+        "title": "Rejoin Thread",
+        "action": "User picks one small saved prompt and ties it to their last session.",
+        "feedback": "Join shows gap neutrally; user sets readiness as sure, unsure, or unknown, editable anytime.",
+        "mechanism": "Gaps are neutral pauses; user-rated confidence directly sizes today's suggested session, correctable before starting.",
+        "difference": "No counters or loss; uncertainty changes session size instead of decorating it.",
+        "risks": "Thread metaphor may still imply breakage; beginners may find confidence rating effortful.",
+        "feasibility": "Single offline HTML page, local storage, fictional sessions and prompts.",
+        "prototype": "Clickable mock with three prompts, confidence picker, and undo; needs beginner walkthroughs, untested."
+      },
+      "proposals": [
+        {
+          "title": "Mend Thread",
+          "action": "User ties a visible knot linking last session to today.",
+          "feedback": "Knot shows gap honestly; tightness reflects user-rated confidence, editable.",
+          "mechanism": "Sessions bind like stitched joints; gaps become labeled, repairable seams.",
+          "difference": "Gaps are visible repairs, not broken streaks or reset counters.",
+          "risks": "Seam imagery may still feel like failure to some.",
+          "feasibility": "Single offline page, local storage, fictional sample sessions.",
+          "prototype": "Paper or HTML mock: thread timeline, knot editor, undo control."
+        },
+        {
+          "title": "Reservoir Refill Sketchbook",
+          "action": "User pours small practice sessions into a fictional creative reservoir.",
+          "feedback": "Water level rises gradually; missed days show slow evaporation, not reset.",
+          "mechanism": "Stock-and-flow model with lagged inflow and visible uncertainty mist.",
+          "difference": "Replaces streak counters with forgiving levels and adjustable leak rates.",
+          "risks": "Metaphor may confuse; evaporation could still feel like quiet guilt.",
+          "feasibility": "Simple offline web app using local storage and fictional sessions.",
+          "prototype": "Paper or HTML mockup with draggable level and correction slider."
+        },
+        {
+          "title": "Re-entrance Stage: Practice Steps Back On",
+          "action": "User drags a performer token from wings onto a small stage.",
+          "feedback": "Stage shows tentative spotlight size reflecting guessed readiness, labeled uncertain.",
+          "mechanism": "Proximity to center sets session length; user adjusts freely anytime.",
+          "difference": "Missed days become offstage pauses, not broken streak counters.",
+          "risks": "Theatrical metaphor may confuse; guesses could feel presumptuous.",
+          "feasibility": "Single offline HTML page with local fictional session data.",
+          "prototype": "Paper sketch plus clickable mockup; untested, needs beginner walkthroughs."
+        },
+        {
+          "title": "Supply Cache Restart",
+          "action": "User picks one small stored sketch prompt to repair today.",
+          "feedback": "Cache shows prompts as rations, marked fresh, unsure, or user-corrected.",
+          "mechanism": "Missed days stock the cache instead of breaking a chain.",
+          "difference": "Gaps become stored supplies, not lost streak points.",
+          "risks": "Rationing metaphor may feel scarce or confusing to beginners.",
+          "feasibility": "Offline local list with fictional prompts and editable confidence labels.",
+          "prototype": "Paper or HTML mock with three prompts and user relabeling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "actions-40962592700-1",
+  "date": "2026-10-29",
+  "title": "Pass the work on",
+  "task": "Help a small team hand over unfinished work without a long activity log.",
+  "kind": "method-study",
+  "notice": "Exploratory ideas, not built prototypes or cultural studies. Human review unrecorded.",
+  "outputs": [
+    {
+      "synthesis": {
+        "title": "Prediction Baton: three-slot handover checked by the receiver's guess",
+        "action": "Sender fills stuck, next, ask-me slots by keyboard or drag; overflow forces prioritizing.",
+        "feedback": "After a cooling window, receiver's predicted next step appears; sender corrects mismatches inline, undoably.",
+        "mechanism": "Immediate capture, delayed reread, then receiver confirms, flags, or rejects each slot, reopening the draft.",
+        "difference": "Handover is validated by prediction mismatch between sender and receiver, not by logging activity.",
+        "risks": "Cooling delay may annoy; predictions may bias framing; timeouts need clear reopen and reject paths.",
+        "feasibility": "Local web page with fictional tasks, localStorage, ARIA live announcements, and a state machine.",
+        "prototype": "Proposed offline demo; planned test compares resume accuracy from batons versus fictional logs, not yet run."
+      },
+      "proposals": [
+        {
+          "title": "Baton Knot: tie off unfinished work in three pulls",
+          "action": "Owner drags task onto baton, records three quick pull-cards.",
+          "feedback": "Baton tightens visibly; loose strands flag missing next step or blocker.",
+          "mechanism": "Immediate pulls capture state; receiver later unties, correcting each strand.",
+          "difference": "Handover is a negotiated knot, not a log or form.",
+          "risks": "Oversimplified strands may hide nuance; receivers may skip untying.",
+          "feasibility": "Local web app with fictional tasks and drag interactions.",
+          "prototype": "Clickable offline mockup; usability sessions proposed, not yet conducted."
+        },
+        {
+          "title": "Baton Card with Cooling Draft",
+          "action": "Leaver drags open tasks onto a baton card, then states next step.",
+          "feedback": "Card shows draft state, then sealed after ten-minute reflection window.",
+          "mechanism": "Immediate capture locks into a delayed, editable seal before receiver accepts.",
+          "difference": "Handover is a timed state machine, not a log or note.",
+          "risks": "Leavers may skip reflection; receiver may distrust unsealed drafts.",
+          "feasibility": "Local React state machine with fictional tasks and localStorage persistence.",
+          "prototype": "Single-page offline demo: draft, cooling, sealed, accepted, reopened states."
+        },
+        {
+          "title": "Two-Pass Handover Postcard",
+          "action": "Owner drags three task fragments onto a postcard before leaving.",
+          "feedback": "Recipient's predicted next step appears; owner corrects it inline.",
+          "mechanism": "Quick capture now, forced reread after ten minutes before sending.",
+          "difference": "Delayed self-review replaces logs with one corrected, prediction-checked card.",
+          "risks": "Delay may annoy; predictions could bias owners toward wrong framing.",
+          "feasibility": "Local HTML prototype with fictional tasks and timer, no network.",
+          "prototype": "Test whether recipients resume correctly from cards versus fictional logs."
+        },
+        {
+          "title": "Relay Baton: three-question handover passed by keyboard",
+          "action": "Sender answers stuck, next, and ask-me prompts, then passes baton.",
+          "feedback": "Receiver hears each answer read back and confirms or flags it.",
+          "mechanism": "Baton holds exactly three slots; overflow forces sender to prioritize.",
+          "difference": "Replaces activity logs with a constrained, confirmable verbal-style relay.",
+          "risks": "Oversimplification may drop context; flagged slots need clear error recovery.",
+          "feasibility": "Local web page with fictional tasks, localStorage, ARIA live regions.",
+          "prototype": "Keyboard-only baton form with screen-reader readback and flag correction."
+        }
+      ]
+    },
+    {
+      "synthesis": {
+        "title": "Loose Ends Splice Board with Fast and Slow Rebinding",
+        "action": "Outgoing person ties each unfinished task to an open joint, marking blocker and next move.",
+        "feedback": "Joints glow frayed until rebound; quick-tied joints stay dashed, flagging pending deeper review.",
+        "mechanism": "Receiver chooses per joint: quick-tie to accept now, or slow-rebind by paraphrasing before acceptance.",
+        "difference": "Handover becomes mutual repair of few joints, explicitly trading immediacy against reflective understanding.",
+        "risks": "Quick-ties may become habitual; terse joints could hide context; paraphrase checks may feel burdensome.",
+        "feasibility": "Single offline web page using local storage, fictional tasks, no network or sensors.",
+        "prototype": "Proposed paper-then-HTML mock: four fictional tasks, tie, fray, quick-tie, paraphrase-rebind, untie undo."
+      },
+      "proposals": [
+        {
+          "title": "Loose Ends Splice Board",
+          "action": "Outgoing person ties each unfinished task to a named open joint.",
+          "feedback": "Joints glow frayed until the receiver re-ties them in own words.",
+          "mechanism": "Handover completes only when receiver rebinds every joint; untie reverses instantly.",
+          "difference": "Replaces activity logs with a few loose joints needing mutual repair.",
+          "risks": "Terse joints may hide context; receivers might rebind without understanding.",
+          "feasibility": "Single offline web page with local storage and fictional tasks.",
+          "prototype": "Paper-then-HTML mock: three fictional tasks, tie, fray, rebind, undo."
+        },
+        {
+          "title": "Reservoir Handover",
+          "action": "Departing member pours unfinished tasks into a shared reservoir with uncertainty levels.",
+          "feedback": "Water level shows remaining load; cloudy water marks uncertain task states.",
+          "mechanism": "Receiver drains tasks through valves, confirming or correcting each before flow.",
+          "difference": "Handover becomes a deliberate draining ritual, not reading logs.",
+          "risks": "Metaphor may obscure urgency; cloudiness ratings may be inconsistent.",
+          "feasibility": "Simple offline web app with local storage and fictional tasks.",
+          "prototype": "Paper or browser mockup testing pour, cloud, drain, and correct steps."
+        },
+        {
+          "title": "Exit Stage Left: Handover Blocking Board",
+          "action": "Departing member drags task tokens to marked stage positions.",
+          "feedback": "Recipient sees spotlighted tokens, accepts, repositions, or questions each.",
+          "mechanism": "Position encodes urgency; distance from center encodes reflection needed.",
+          "difference": "Spatial staging replaces logs; handover becomes a choreographed entrance.",
+          "risks": "Spatial meanings may confuse; positions could oversimplify nuanced work.",
+          "feasibility": "Offline web canvas with fictional tasks and local storage.",
+          "prototype": "Paper-and-browser mock: two roles, eight fictional tasks, undo."
+        },
+        {
+          "title": "Airlock Tags: handover as tagged repair parts",
+          "action": "Departing member pins three physical-style tags onto one unfinished task.",
+          "feedback": "Incoming member sees tags glow until each is confirmed or corrected.",
+          "mechanism": "Tags force choices: blocker, next move, scarce resource at risk.",
+          "difference": "Handover is a short tag ritual, not a scrolling log.",
+          "risks": "Three tags may oversimplify; misread tags could waste scarce supplies.",
+          "feasibility": "Offline web prototype with fictional habitat tasks and local storage.",
+          "prototype": "Paper-and-browser mock; drag tags, rewrite, accept, untested so far."
+        }
+      ]
+    }
+  ]
+}

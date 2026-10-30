@@ -1,0 +1,118 @@
+{
+  "id": "actions-40775698521-1",
+  "date": "2026-10-28",
+  "title": "Change the plan together",
+  "task": "Help a group change an agreed plan while keeping consent reversible and clear.",
+  "kind": "method-study",
+  "notice": "Exploratory ideas, not built prototypes or cultural studies. Human review unrecorded.",
+  "outputs": [
+    {
+      "synthesis": {
+        "title": "Consent Tide Ledger with Reaffirm Window",
+        "action": "Members set agree, unsure, or withdraw per change via drag, arrow keys, or buttons.",
+        "feedback": "Labeled states with text and icons, live-announced tallies, and undo history; never color alone.",
+        "mechanism": "Change locks only after quiet window with no unsure; any flip reopens; stalls prompt revision.",
+        "difference": "Consent is graded, time-bound, and reopenable, with uncertainty as explicit state rather than silence.",
+        "risks": "Quiet-member pressure, misread tentative states, and stalling; unsure count shown anonymously to reduce pressure.",
+        "feasibility": "Single offline HTML page, local state machine, ARIA live regions, fictional group data.",
+        "prototype": "Proposed keyboard test: testers predict who joins after edits; measure misreading and correction errors."
+      },
+      "proposals": [
+        {
+          "title": "Consent Tokens on a Shared Plan Table",
+          "action": "Each member places, moves, or withdraws their token on plan changes.",
+          "feedback": "Changes show solid, faded, or open tokens per person.",
+          "mechanism": "Faded tokens mark tentative consent; anyone can withdraw before lock-in.",
+          "difference": "Consent is a visible, movable object, not a yes button.",
+          "risks": "Faded tokens may be misread as agreement; social pressure persists.",
+          "feasibility": "Single-device web prototype with fictional members and local state.",
+          "prototype": "Clickable mockup: weekend trip plan, three proposed changes, undo history."
+        },
+        {
+          "title": "Consent Ledger with Pending Tokens",
+          "action": "Members drag a token onto proposed plan change; drag back anytime.",
+          "feedback": "Each token shows state: yes, unsure, no, or unseen.",
+          "mechanism": "Change activates only when all tokens settle; any withdrawal reverts instantly.",
+          "difference": "Uncertainty is a visible token state, not hidden as silence.",
+          "risks": "Token clutter in large groups; stalled plans from lingering unsure states.",
+          "feasibility": "Single-page offline app with local state machine and undo log.",
+          "prototype": "Fictional five-person picnic replan, timeline of reversible token moves."
+        },
+        {
+          "title": "Consent Tide Chart",
+          "action": "Members drag personal markers along a plan-change timeline showing commitment strength.",
+          "feedback": "Shared chart shows firm, tentative, and withdrawn stances with stated reasons.",
+          "mechanism": "Consent decays to tentative unless reaffirmed before the change locks.",
+          "difference": "Consent is graded and time-bound, not a single binary vote.",
+          "risks": "Decay may confuse users or pressure quiet members to reaffirm.",
+          "feasibility": "Local web prototype with fictional group and scripted plan changes.",
+          "prototype": "Observe whether testers correctly predict who will join after edits."
+        },
+        {
+          "title": "Consent Ledger with Pending Tokens",
+          "action": "Members hold tokens: agree, unsure, or withdraw on proposed changes.",
+          "feedback": "Screen reader announces tally changes and who remains unsure, fictionally.",
+          "mechanism": "Change activates only after quiet window; any token flip reopens it.",
+          "difference": "Uncertainty is a first-class state, not abstention or silence.",
+          "risks": "Endless reopening may stall decisions; window length needs tuning.",
+          "feasibility": "Single offline HTML page with local state and ARIA live regions.",
+          "prototype": "Keyboard-only test: arrow tokens, Escape undoes last, errors explained inline."
+        }
+      ]
+    },
+    {
+      "synthesis": {
+        "title": "Named Thread Ledger for Plan Changes",
+        "action": "Each named member ties, loosens, or unties their own thread on each proposed change.",
+        "feedback": "Per-member labels show tied, unsure, or untied; holdouts always named, with resource tradeoffs shown.",
+        "mechanism": "Change holds only while all threads stay tied; any untie instantly reopens it and logs it.",
+        "difference": "Consent is maintained, named, revocable tension per person, not a one-time aggregate vote.",
+        "risks": "Visible stances may pressure members; private unsure flag and delayed reveal mitigate but not eliminate.",
+        "feasibility": "Single offline web page with fictional members, local state, and an undo log.",
+        "prototype": "Proposed clickable mockup: five fictional members, three changes, untie, private correction, and undo trail."
+      },
+      "proposals": [
+        {
+          "title": "Stitched Plan Ledger",
+          "action": "Members tie or loosen personal threads binding each plan change.",
+          "feedback": "Each joint shows taut, slack, or frayed thread per member.",
+          "mechanism": "Changes hold only while every thread stays tied; untying reopens joint.",
+          "difference": "Consent becomes visible, maintained tension rather than one-time checkbox approval.",
+          "risks": "Thread metaphor may confuse; social pressure to stay tied.",
+          "feasibility": "Local web page with fictional members and simple state model.",
+          "prototype": "Clickable offline mockup showing three changes, ties, frays, and repairs."
+        },
+        {
+          "title": "Consent Reservoir",
+          "action": "Members pour or drain consent tokens into a shared plan-change tank.",
+          "feedback": "Tank level rises with lag; murky water marks unconfirmed or stale consent.",
+          "mechanism": "Consent flows in slowly and drains instantly, keeping withdrawal always reversible.",
+          "difference": "Consent becomes a visible stock with flow, not one-time yes buttons.",
+          "risks": "Metaphor may obscure who disagrees; murkiness could feel vague or coercive.",
+          "feasibility": "Simple offline web canvas with fictional members and local state.",
+          "prototype": "Paper or HTML mockup testing drain, refill, and clarity labels."
+        },
+        {
+          "title": "Stage Marks for Plan Changes",
+          "action": "Members drag tokens onto a shared stage toward proposed change.",
+          "feedback": "Token distance shows lean; dashed outline marks unsure stance.",
+          "mechanism": "Consent equals stepping onstage; stepping back withdraws instantly, logged visibly.",
+          "difference": "Spatial proximity encodes consent strength and uncertainty, not binary votes.",
+          "risks": "Distance may be misread; pressure from visible positions.",
+          "feasibility": "Single offline web page with fictional members and local state.",
+          "prototype": "Clickable mock: five fictional tokens, one plan change, undo trail."
+        },
+        {
+          "title": "Ration Ledger Tokens",
+          "action": "Members slide personal tokens onto proposed habitat plan changes.",
+          "feedback": "Each token shows confidence shading and expiry countdown visibly.",
+          "mechanism": "Consent decays unless renewed; withdrawing token instantly flags dependent changes.",
+          "difference": "Consent becomes physical, time-bound, and confidence-weighted, not binary.",
+          "risks": "Decay may pressure members or obscure who still agrees.",
+          "feasibility": "Offline tablet app with fictional crew and resource data.",
+          "prototype": "Paper tokens on printed plan board, then clickable mockup."
+        }
+      ]
+    }
+  ]
+}
