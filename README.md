@@ -22,3 +22,8 @@ Private Perspectives archive publishes only allowlisted presentation data to `ru
 The hand-authored four-country pilot remains a sample. Older method studies are explicitly
 labelled ideas, not built cultural scenes. No private provenance, blind IDs, logs or reviews
 travel with public outputs. `archive.js` draws the list; `run.js` draws archived results.
+
+Every archived run uses the same four-block viewport template. Older method runs show four
+original proposals, with Result 1 / Result 2 in the top bar. Hover, tap or keyboard opens
+each proposal; About keeps final syntheses, limits and cover. New run data inherits this
+layout without per-run page creation. No cultural labels or interactive prototypes are invented.

@@ -80,3 +80,13 @@ Archive link opens study. Each scene has action, Reset, Download SVG, live statu
 - Keep scene palettes data-bound; text stays outside SVG where practical.
 - Preserve paper, green ink and Mozilla font family.
 - Avoid decorative cultural symbols, whole-culture claims, implied endorsement and private review controls.
+
+## Archived run template
+
+All run.html entries share the full-viewport four-block grid. Method runs display four
+original proposals, with a top-bar Result selector for both saved outputs. Proposal title
+and action sit at top; hover, tap or native summary keyboard interaction reveals details.
+Escape closes details. Long content scrolls within its block. About retains original task,
+notice, cover and both syntheses. No imagined countries or working prototypes added.
+New run JSON automatically uses this template. Cultural account exports also require four
+blocks; the existing playable cultural sample keeps its loupe renderer.
