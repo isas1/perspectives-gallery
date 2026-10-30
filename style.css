@@ -39,3 +39,11 @@
 @media(max-width:800px){.scenes{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr))}.visual-card{border-bottom:1px solid #223a3215}.card-heading{top:20px;left:20px;right:16px}.card-heading h2{font-size:30px}.canvas svg{margin-top:30px}.study-bar{padding:0 16px;gap:10px}.study-bar h1{font-size:19px}}
 @media(max-width:400px){.card-heading{top:18px;left:16px}.card-heading h2{font-size:26px}.study-bar h1{font-size:17px}.archive-page main{width:calc(100% - 32px)}.study-link{padding:24px 20px}.slab-arrow{width:24px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+.card-heading p{font-size:14px;line-height:1.5;max-width:30ch;margin:14px 0 0;text-wrap:pretty}
+@media(max-width:800px){.card-heading p{font-size:13px;line-height:1.45;margin-top:10px}}
+
+/* Published runs remain a plain list; study type stays explicit. */
+.archive-page main{padding:48px 0}.slab-title{display:block}.slab-meta{display:block;font-size:13px;margin-top:12px;color:#506259}.archive-error{padding:20px}
+.run-page .study-bar{height:auto;min-height:68px;grid-template-columns:auto 1fr;padding:16px 24px}.run-page .study-bar h1{font-size:23px;text-align:right}.run-page main{max-width:1200px;margin:auto;padding:32px 24px}.run-intro{max-width:760px;margin:0 auto 48px}.run-intro h2{font-size:30px}.run-intro img{width:100%;height:auto;display:block;margin-top:24px}.idea-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}.idea-results article{min-width:0;border-top:1px solid var(--rule);padding-top:24px}.idea-results h2{font-size:28px}.idea-results h3{font-size:17px;margin:28px 0 8px}.idea-results p{max-width:70ch;margin:0 0 16px}.idea-results details{border-top:1px solid var(--rule)}
+@media(max-width:650px){.idea-results{grid-template-columns:1fr;gap:32px}.run-page main{padding:24px 18px}.run-page .study-bar h1{font-size:18px}.slab-meta{font-size:12px}}
