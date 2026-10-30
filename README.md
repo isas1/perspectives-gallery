@@ -15,15 +15,14 @@ source accounts never stand for whole cultures. Pilot is hand-authored; no commu
 Run any static HTTP server locally. Every path is relative for GitHub Pages project hosting.
 Mozilla fonts ship under their included OFL licenses; application code MIT (LICENSE).
 
-## Automatic shelf
+## Cultural studies only
 
-Private Perspectives archive publishes only allowlisted presentation data to `runs/` and
-`runs.json`. Fixtures, held attempts and exact-content duplicates stay off this shelf.
-The hand-authored four-country pilot remains a sample. Older method studies are explicitly
-labelled ideas, not built cultural scenes. No private provenance, blind IDs, logs or reviews
-travel with public outputs. `archive.js` draws the list; `run.js` draws archived results.
+One task, four specific cultural accounts. Welcome a guest is currently the only cultural
+study available: a hand-authored pilot, with sources and limits in its top-bar drawer.
 
-Every archived run uses the same four-block viewport template. Older method runs show four
-original proposals, with Result 1 / Result 2 in the top bar. Hover, tap or keyboard opens
-each proposal; About keeps final syntheses, limits and cover. New run data inherits this
-layout without per-run page creation. No cultural labels or interactive prototypes are invented.
+Legacy method studies explored ways to generate ideas, not cultural differences. They remain
+in the private research archive and do not appear here. Automatic publication accepts only
+ready cultural runs with four distinct accounts; fixtures, held attempts and duplicates stay
+out. Private logs, reviews and provenance never travel with public presentation data.
+
+Every new cultural export uses the shared four-block viewport template automatically.
