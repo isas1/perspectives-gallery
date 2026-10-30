@@ -51,11 +51,11 @@ Paper supports long reading. Green ink anchors text and controls; muted green ma
 
 ## Typography
 
-Self-host Mozilla Headline as Headline; Mozilla Text as Text. Included OFL licenses travel with fonts. Balanced headings, restrained weight, readable body. Section heading uses 30px; scene title 30px; context subheading 21px; metadata and control labels 14px. Body measure stays within 70ch. No remote font service.
+Self-host Mozilla Headline as Headline; Mozilla Text as Text. Included OFL licenses travel with fonts. Balanced headings, restrained weight, readable body. Section heading uses 30px; scene title 30px; context subheading 21px; metadata and control labels 12–14px; compact title bar 25px; card headings 25–36px. ExportText embeds the same Mozilla Text font in downloaded SVGs. Body measure stays within 70ch. No remote font service.
 
 ## Layout
 
-Container max width 1400px; fluid gutters; 28px vertical page padding. Archive uses one full-width study link with four preview cells. Study uses two scene columns, 48px row gap, 32px column gap. At 650px and below: scenes stack; preview uses two columns; status and metadata lose fixed minimum height. Source context expands inline. Comparison follows all four scenes.
+Container max width 1400px; fluid gutters; 28px vertical page padding. Archive uses one full-width study link with four preview cells. Study has a compact title bar and four full-height visual columns. At 1100px: two columns; at 600px: one. Each muted scene card carries only title, place and diagram. A pointer-tracked circular lens reveals a contrasting active scene; click, tap or Enter expands it. Arrow keys move the lens. Controls and source context sit below cards; comparison stays collapsed. Archive remains unchanged.
 
 ## Elevation & Depth
 
@@ -67,7 +67,7 @@ Controls use small rounded corners; SVG scene fields use larger corners. Geometr
 
 ## Components
 
-Archive link opens study. Each scene has action, Reset, Download SVG, live status and native context disclosure. Control minimum height 44px; focus uses 3px clay outline with 5px offset. Action redraws SVG and adds 450ms opacity reveal; reduced-motion preference removes reveal. Source links open deliberately. JSON download sits below cross-scene comparison.
+Archive link opens study. Each scene has action, Reset, Download SVG, live status and native context disclosure. Control minimum height 44px; focus uses 3px clay outline with 5px offset. Hover animates vessel positions for 850ms; reduced motion removes animation. Lens transition lasts 500ms and stops when pointer rests. No autonomous animation loop. Source links open deliberately. JSON download sits below cross-scene comparison.
 
 ## Do's and Don'ts
 
