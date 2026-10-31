@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-31-welcome-recovery-02902125-9fb",
+  "date": "2026-10-31",
+  "title": "Welcome a guest",
+  "task": "Welcome a guest: explore four specific source accounts through playable design interpretations.",
+  "kind": "culture",
+  "notice": "Source-informed accounts; no community endorsement. Interactive assets are not included in this archive export.",
+  "scenes": [
+    {
+      "title": "A table set for talking",
+      "scope": "Turkish coffee hospitality in Fulya Ozerkan’s Istanbul account, including attributed coffee specialists; not all households in Türkiye.",
+      "context": "This scene draws on Fulya Ozerkan’s UNESCO Courier article about Turkish coffee, including an account from coffee specialist Cenk Girginol. The article connects coffee with conversation and describes a cezve, a small cup and saucer, and water served alongside. Here, arranging a fictional table makes space for three people to talk. The placement puzzle belongs to this design; it does not teach a required serving order or describe every household in Türkiye.",
+      "interpretation": "Place the objects so three imagined people can share one table; any layout is a design choice.",
+      "uncertainty": "One journalistic account with named contributors. Household, regional and diaspora practices vary. No community review; no universal serving order asserted.",
+      "sources": [
+        {
+          "title": "Turkish coffee, not just a drink but a culture",
+          "url": "https://www.unesco.org/en/articles/turkish-coffee-not-just-drink-culture",
+          "author": "Fulya Ozerkan; includes Cenk Girginol’s account"
+        }
+      ]
+    },
+    {
+      "title": "Three cups, even attention",
+      "scope": "Ye Hanzhong’s Chaozhou gongfu cha teaching account at Chengnan Middle School, Guangdong, reported in December 2025.",
+      "context": "This scene follows an attributed teaching account, rather than a general account of Chinese hospitality. In Li Yingxue’s report from Chaozhou, practitioner Ye Hanzhong explains preparation, brewing and sharing, including distributing tea among three cups for a host and two guests. The playable pouring controls make that attention visible. They simplify a skilled practice into a diagram; the numerical fill levels and button sequence are invented interface mechanics, not technical brewing instructions.",
+      "interpretation": "Pour invented diagram levels across three cups; matching levels show attention, not skill or a recipe.",
+      "uncertainty": "One reported practitioner account, not all gongfu cha practices. Diagram omits heat, timing, utensil preparation and trained technique. No community review.",
+      "sources": [
+        {
+          "title": "A lesson steeped in tradition",
+          "url": "https://govt.chinadaily.com.cn/s/202512/29/WS6951e967498e368550339604/a-lesson-steeped-in-tradition.html",
+          "author": "Li Yingxue; interview with practitioner Ye Hanzhong"
+        }
+      ]
+    },
+    {
+      "title": "Cool water, shared space",
+      "scope": "UNESCO’s account of Tereré in Pohã Ñana traditions in Paraguay and their Guaraní-rooted heritage; not every Paraguayan or Guaraní practice.",
+      "context": "UNESCO’s account of Tereré in Pohã Ñana traditions describes cold-water preparation, yerba mate and a bombilla, alongside family transmission and social connection. Its scope is a Guaraní-rooted heritage practice in Paraguay, not a single way that everyone welcomes visitors. This scene reveals preparation objects and a shared space. Its reveal order is invented. It offers no herb identification, medicinal advice, health claim or instruction to share drinking equipment; those questions need situated knowledge and care.",
+      "interpretation": "Players reveal objects one by one around a shared table; the order is an invented game choice, not a ritual or sharing instruction.",
+      "uncertainty": "Institutional heritage account; no practitioner review of this adaptation. No medicinal efficacy, plant identification, hygiene or fixed sharing etiquette asserted.",
+      "sources": [
+        {
+          "title": "Practices and traditional knowledge of Terere in the culture of Pohã Ñana, Guaraní ancestral drink in Paraguay",
+          "url": "https://ich.unesco.org/en/RL/practices-and-traditional-knowledge-of-terere-in-the-culture-of-poha-nana-a-traditional-drink-of-paraguay-01603",
+          "author": "UNESCO inscription account, nomination submitted by Paraguay"
+        }
+      ]
+    },
+    {
+      "title": "A pause with room to share",
+      "scope": "Visit Sweden’s contemporary visitor account of fika at home, work and cafés; not a prescription for Swedish people.",
+      "context": "Visit Sweden presents fika as a chance to pause and connect, often around coffee and something sweet. Its visitor guide describes flexible timing and settings, including home, work and cafés, rather than a strict ceremony. This scene invites a pause in a fictional visit. The expanding space and optional timer are interface inventions: they do not measure authentic fika, require coffee, or imply that all Swedish people enjoy the same routine.",
+      "interpretation": "Players widen a shared table space at their own pace; the optional timer and spacing are design inventions, not cultural rules.",
+      "uncertainty": "Tourism account, not a survey or community review. Fika can vary and can be solitary. No mandatory food, duration, setting or social rule asserted.",
+      "sources": [
+        {
+          "title": "Fika like a Swede",
+          "url": "https://visitsweden.com/what-to-do/food-drink/swedish-kitchen/all-about-swedish-fika/",
+          "author": "Visit Sweden editorial account"
+        }
+      ]
+    }
+  ]
+}
